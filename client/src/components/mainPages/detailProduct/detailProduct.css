@@ -1,0 +1,58 @@
+.detail{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 50px;
+    font-size: 150%;
+}
+.detail img{
+    max-width: 400px;
+    width: 100%;
+    margin: 20px;
+    height: 450px;
+    object-fit: contain;
+    display: block;
+}
+.box-detail{
+    max-width: 500px;
+    width: 100%;
+    margin: 5px 20px;
+}
+.box-detail .row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.box-detail h2{
+    text-transform: uppercase;
+    color: darkblue;
+    letter-spacing: 2px;
+    font-size: 30px;
+    font-weight:500;
+}
+.box-detail h6{
+    color: teal;
+}
+.box-detail p{
+    line-height: 1.5;
+    margin: 10px 0;
+    opacity: 0.8;
+    font-size: 20px;
+}
+.box-detail .cart{
+    background: #333;
+    color: white;
+    margin-top: 100px;
+    padding: 10px 25px;
+    display: inline-block;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-size: 20px;
+    width: 125px;
+    text-align: center;
+    /* width: 300px; */
+    /* justify-content: center; */
+    /* align-items: center; */
+}
